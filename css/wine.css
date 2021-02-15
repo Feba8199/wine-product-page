@@ -1,0 +1,167 @@
+h1{
+  color: #940000;
+  font-style: italic;
+}
+p{
+  color: red;
+}
+
+#header{
+  position: fixed;
+ width: 100%;
+ height: 20%;
+ top: 0;
+ left: 0;
+  background-color: #d9004c;
+  overflow: hidden;
+  padding: 5px;
+}
+
+h2{
+  text-align: center;
+}
+body{
+  background-color:#e0ffff ;
+}
+body {
+  background-color: tan;
+}
+
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #e0ffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+#header a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#header a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+#form{
+  padding: 50px;
+  width: 300px;
+}
+input[type=text] {
+  background-color: #e0ffff;
+  color: white;
+  width: 300px;
+  height: 25px;
+  font-family: candara;
+}
+input[type=submit] {
+  color: black;
+  font-family: cursive;
+  background-color: #f08080;
+}
+#nav-bar{
+  float: right;
+  width: 20%;
+  padding: 5px;
+  z-index: 10000;
+  top: 0px;
+}
+#about{
+  font-family: candara;
+  text-align: center;
+}
+
+#collection{
+  font-family: candara;
+  text-align: center;
+}
+.center{
+  width: 370px;
+  height: 300px;
+  border: 5px solid #c3c3c3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+
+}
+section{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  background-color: ##e0ffff;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 100%;
+  color: #f2f2f2;
+
+}
+
+.flex-item {
+  background-color: #d9004c;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container1 {
+  display: flex;
+  background-color: ##e0ffff;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 100%;
+  color: #f2f2f2;
+
+}
+
+.flex-item1 {
+  background-color: #d9004c;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+
+}
+.flex-item2 {
+  background-color: #d9004c;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: white;
+  color: white;
+}
